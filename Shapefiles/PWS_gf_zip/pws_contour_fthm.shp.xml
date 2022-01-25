@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20150925</CreaDate><CreaTime>14421100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Contour" Date="20150925" Time="143743">Contour pws_insde_waters.tif D:\_GIS\_shapefiles_mgm\Contours\pws_fthm_contour.shp 50 0 0.55</Process></lineage></DataProperties></Esri></metadata>

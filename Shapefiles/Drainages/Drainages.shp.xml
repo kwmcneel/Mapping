@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Tyler G USFWS 1011 East Tudor Road, Anchorage, Alaska 99503</origin>
+				<pubdate>October 2009</pubdate>
+				<title Sync="TRUE">Drainages</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\KODIAK\I$\ProjectData\USFWS_CGL\Web\shapefiles\Drainages.shp</onlink>
+				<ftname Sync="TRUE">Drainages</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Made by dissolving the preliminary 5th-level watershed delineations available here: http://agdcftp.wr.usgs.gov/pub/projects/AWSHED/ for the Kusko and Norton Sound drainages. Only the lower Yukon followed this method where the drainage borders the other two drainages. For the remainder of the Yukon, the international drainage boundary was used. This Yukon drainage boundary is available here: http://agdc.usgs.gov/data/usgs/water/yukon.html</abstract>
+			<purpose>To provide a cartographic reference for the approximate boundaries of the Yukon River, Kuskokwim River, and Norton Sound drainages.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>July, 2009</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-168.095187</westbc>
+				<eastbc Sync="TRUE">-129.180974</eastbc>
+				<northbc Sync="TRUE">69.077791</northbc>
+				<southbc Sync="TRUE">58.626900</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-168.095187</leftbc><rightbc Sync="TRUE">-129.180974</rightbc><bottombc Sync="TRUE">58.626900</bottombc><topbc Sync="TRUE">69.077791</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekey>salmon</themekey>
+				<themekey>genetics</themekey>
+				<themekey>Chinook</themekey>
+				<themekey>Chum</themekey>
+				<themekey>Coho</themekey>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt></theme>
+			<place>
+				<placekey>Yukon River</placekey>
+				<placekey>Kuskokwim River</placekey>
+				<placekey>Norton Sound</placekey>
+				<placekey>Alaska</placekey>
+				<placekey>Yukon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>USFWS and its agents and contractors make no guarantees of fitness of these data for any use whatsoever</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Jeffrey Olsen</cntper>
+					<cntorg>USFWS, Conservation Genetics Laboratory</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1011 East Tudor Road</address>
+					<city>Anchorage</city>
+					<state>Alaska</state>
+					<postal>99503</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>907-786-3598</cntvoice>
+				<cntemail>jeffrey_olsen@fws.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform><datacred>State of Alaska  
+Watershed and Stream Hydrography Enhanced Datasets (AWSHED) Project 
+USGS National Stream Quality Accounting Network</datacred></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\ifw7rocgl2.fws.doi.net\users\all_cgl\CGL\GIS\Gis_Data\CGL_GDB.gdb</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\KODIAK\I$\ProjectData\USFWS_CGL\CGL_2009.gdb</srcused>
+				<procdate>20090702</procdate>
+				<proctime>12291600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\KODIAK\I$\ProjectData\USFWS_CGL\CGL_Compiled.mdb</srcused>
+				<procdate>20090702</procdate>
+				<proctime>12375400</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\KODIAK\I$\ProjectData\USFWS_CGL\CGL_Compiled.mdb</srcused>
+				<procdate>20090707</procdate>
+				<proctime>16330600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\KODIAK\I$\ProjectData\USFWS_CGL\CGL_Compiled.mdb</srcused>
+				<procdate>20090707</procdate>
+				<proctime>16352000</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">I:\ProjectData\USFWS_CGL\Metadata\CGL_metadata_template.xml</srcused><procdate Sync="TRUE">20090721</procdate><proctime Sync="TRUE">18165700</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Drainages">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Drainages"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>0.000100</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Drainages">
+			<enttyp>
+				<enttypl Sync="TRUE">Drainages</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Drainage</attrlabl><attalias Sync="TRUE">Drainage</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr><attr><attrlabl Sync="TRUE">Area_KM2</attrlabl><attalias Sync="TRUE">Area_KM2</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Although these data have been used by the U.S. Fish and Wildlife Service, U.S. Department of the Interior (U.S.F.W.S.), no warranty expressed or implied is made by the U.S.F.W.S. as to the accuracy of the data.
+
+The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S.F.W.S. in the use of this data, software, or related materials. </distliab><stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090722</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>John Koltun</cntper>
+					<cntorg>Geographic Resource Solutions</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>700 W. 41st Ave, Suite 200</address>
+					<city>Anchorage</city>
+					<state>Alaska</state>
+					<postal>99503</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1125 16th Street, Suite 213</address>
+					<city>Arcata</city>
+					<state>CA</state>
+					<postal>95521</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>907 563 9511</cntvoice>
+				<cntemail>koltunj@grsgis.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{E34D1939-CC0C-49EF-8623-6EE5A32F8617}</MetaID><CreaDate>20090721</CreaDate><CreaTime>18165700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090722</SyncDate><SyncTime>11285900</SyncTime><ModDate>20090722</ModDate><ModTime>11285900</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090722" Time="112859">CopyFeatures I:\ProjectData\USFWS_CGL\CGL_LG_Data.mdb\Drainages I:\ProjectData\USFWS_CGL\Web\shapefiles\Drainages.shp # 0 0 0</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Drainages</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-168.095187</westBL><eastBL Sync="TRUE">-129.180974</eastBL><northBL Sync="TRUE">69.077791</northBL><southBL Sync="TRUE">58.6269</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-168.095187</westBL><eastBL Sync="TRUE">-129.180974</eastBL><northBL Sync="TRUE">69.077791</northBL><southBL Sync="TRUE">58.6269</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\KODIAK\I$\ProjectData\USFWS_CGL\Web\shapefiles\Drainages.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Drainages"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090722</mdDateSt></metadata>
