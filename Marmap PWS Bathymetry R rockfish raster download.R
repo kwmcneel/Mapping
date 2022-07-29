@@ -1,11 +1,14 @@
 ####https://cran.r-project.org/web/packages/marmap/vignettes/marmap-DataAnalysis.pdf###
 ####https://cran.r-project.org/web/packages/marmap/vignettes/marmap.pdf
 ###R Bathymetry
-library(marmap)
+while(!require(cli)){install.packages("cli")}
+while(!require(marmap)){install.packages("marmap")}
 
 #load NOAA map
 pws <- getNOAA.bathy(lon1 = -149, lon2 = -145.5,lat1 = 59, lat2 = 61.5, resolution = .7)
 summary(pws)
+pws <- getNOAA.bathy(lon1 = -149, lon2 = -145.5,lat1 = 59, lat2 = 61.5, resolution = .7)
+?getNOAA.bathy
 
 #Creating color palettes
 ###blues <- c("lightsteelblue4", "lightsteelblue3","lightsteelblue2", "lightsteelblue1")
@@ -35,7 +38,7 @@ blues <- colorRampPalette(c("red","purple","blue","cadetblue1","white"))
 #col = c("lightgrey", "darkgrey", "black"),
 #drawlabel = c(FALSE, FALSE, FALSE))
 #scaleBathy(pws, deg = 1, x = "topleft", inset = 5)
-??shallow
+#??shallow
 
 ##### Add coastline######
 #plot(pws, deep = 0, shallow = 0, step = 0,lwd = 0.4, add = TRUE)
@@ -49,7 +52,7 @@ blues <- colorRampPalette(c("red","purple","blue","cadetblue1","white"))
 ###############################################
 
 ###Export image
-tiff()
+#tiff()
 
 
 ########################Data########################
@@ -57,30 +60,32 @@ tiff()
 
 #####Get depths by clicking####
 #####Click map and stop to get data#
-get.depth(pws, distance = TRUE)
+#get.depth(pws, distance = TRUE)
 
 ####Get depths from table######
 ##data file head (x,y,station)
 
 #Plot points and text on map see below####
 blues <- c("lightsteelblue4", "lightsteelblue3","lightsteelblue2", "lightsteelblue1")
-greys <- c(grey(0.6), grey(0.93), grey(0.99))
+greys <- c(grey(0.6))
+blues<-colorRampPalette(c("blue", "cadetblue1"))
+plot(papoue,image= TRUE,bpal = blues(100))
 
 library("colorspace")
 pal <- choose_palette()
-file.remove("S:/ADU/ZZ McNeel/152/PWS_bath_map2.pdf")
-pdf("S:/ADU/ZZ McNeel/152/PWS_bath_map2.pdf",width=7,height=6)
+file.remove("plots/PWS_bath_map2.pdf")
+pdf("plots/PWS_bath_map2.pdf",width=7,height=6)
 
 library(raster)
 
-r <- raster("S:/ADU/Prince_William_Sound_DEM_1862/prince_william_sound_ak_8s.asc")
-r<-rotate(r)
+#r <- raster("S:/ADU/Prince_William_Sound_DEM_1862/prince_william_sound_ak_8s.asc")
+#r<-rotate(r)
 #plot(r, main='RasterLayer from file')
-pws<-as.bathy(r)
+#pws<-as.bathy(r)
 
 plot(pws, image = TRUE, land = TRUE,n=0,col="lightsteelblue1", 
 bpal = list(c(0, max(pws), greys),
-c(min(pws), 0, blues)))
+c(min(pws), 0, blues(1000))))
 
 rockfish <- get.area(pws, level.inf = -1200, level.sup = -500)
 plotArea(rockfish, col = pal(12)[12])
@@ -90,14 +95,14 @@ rockfish <- get.area(pws, level.inf = -400, level.sup = -300)
 plotArea(rockfish, col = pal(12)[10])
 rockfish <- get.area(pws, level.inf = -300, level.sup = -200)
 plotArea(rockfish, col = pal(12)[9])
-
-plot(pws, deep=-5000, shallow=-1300, step=1000, lwd=0.5, add=TRUE)
-plot(pws, deep=-500, shallow=-100, step=100,cex=.5,font=2,lwd=1, add=TRUE, drawlabel=TRUE, col="lightsteelblue4")
+?plot.bathy
+plot(pws, deep=-5000, shallow=0, step=200, lwd=0.5, add=TRUE)
+plot(pws, deep=-5000, shallow=0, step=100,cex=.5,font=2,lwd=.05, add=TRUE, drawlabel=TRUE, col="lightsteelblue4")
 
 text(-146.99, 60.70, "Prince William\nSound", col = "white", font = 4,cex=.75)
 text(-147, 60.71, "Prince William\nSound", col = "black", font = 4,cex=.75)
-text( -147.4662, 60.04346, "Montague Is.",col = "white", font = 4,srt=35,cex=.75)
-text(  -146.4672, 60.41150, "Hinchinbrook\nIs.",col = "white", font = 4,cex=.64)
+text( -147.4662, 60.04346, "Montague Is.",col = "black", font = 4,srt=35,cex=.75)
+text(  -146.4672, 60.41150, "Hinchinbrook\nIs.",col = "black", font = 4,cex=.64)
 text(-147.8067, 59.98212, "Montague Strait",col = "white", font = 4, srt=35, cex=.64)
 text(-147.8167, 59.98212, "Montague Strait",col = "black", font = 4, srt=35, cex=.64)
 text(-146.81, 60.23624, "Hinch. Channel",col = "white", font = 4,srt=-70, cex=.64)
@@ -113,10 +118,10 @@ dev.off()
 # add sampling points, and add text to the plot:
 ##################################################
 
-lon= c(-149.466667
-lat= c(59.835278
-station= c(GAK1
-sampling=data.frame(lon,lat,station
+lon= c(-149.466667)
+lat= c(59.835278)
+station= c(GAK1)
+sampling=data.frame(lon,lat,station)
 
 points(sampling$lon, sampling$lat, pch = 21, col = "black",
 bg = "yellow", cex = 1)

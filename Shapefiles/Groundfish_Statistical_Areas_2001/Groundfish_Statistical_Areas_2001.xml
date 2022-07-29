@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>a821b7139b2c4d9a9d8bb5e724be7d9d</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>Division of Commercial Fisheries</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>GIS Representative</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>(907) 465-2376</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <city>
+                                <gco:CharacterString>Juneau</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>Alaska</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>99811</gco:CharacterString>
+                            </postalCode>
+                            <electronicMailAddress>
+                                <gco:CharacterString>dfg.dcf.gis@alaska.gov</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2017-08-04</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex" codeSpace="ISOTC211/19115">complex</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>1738</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Groundfish_Statistical_Areas_2001</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2017-08-01</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Division of Commercial Fisheries, Alaska Department of Fish and Game, GIS Representative</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>This metadata report applies to the 2001 ADF&amp;G Groundfish Statistical Areas. Statistical areas are polygons that divide the waters of the State of Alaska and the adjacent Exclusive Economic Zone (EEZ) into small units for the purpose of reporting and analyzing fishery harvest. Each statistical area is identified by a unique 6-digit number. Groundfish statistical areas are based on a grid that measures one-half degree latitude by one degree of longitude and can be divided by lines defined in ADF&amp;G regulations, and further subdivided based on prominent landmarks or points of land. All lines are referenced to the NAD83 datum. This revised version of the groundfish statistical areas became effective January 1, 2001. Many statistical areas were changed or subdivided to better match state and federal fishery areas. In these cases, the previous statistical area codes were retired and the revised statistical areas were assigned new numbers. If you need to compare to retired statistical areas, you will need to refer to previous versions of the groundfish statistical areas. This project received funding under award NA15NMF4270272 from NOAA Fisheries Service, in cooperation with the Saltonstall-Kennedy Grant Program. The statements, findings, conclusions, and recommendations are those of the author(s) and do not necessarily reflect the views of NOAA Fisheries</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Participants in Alaska commercial fisheries are required to report the statistical area where their harvest occurs. In combination with reports on the harvest species, poundage and etc., these data are useful to analyze and visualize spatial patterns</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Alaska Department of Fish and Game, Commercial Fisheries Division</gco:CharacterString>
+            </credit>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Division of Commercial Fisheries</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>GIS Representative</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>NA</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <city>
+                                        <gco:CharacterString>Juneau</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>Alaska</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>99811</gco:CharacterString>
+                                    </postalCode>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>dfg.dcf.gis@alaska.gov</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>oceans</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ISO 19115 Topic Categories</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>oceans</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ISO 19115 Topic Categories</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>commercial fisheries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADF&amp;G</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>statistical areas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>groundfish</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>commercial fisheries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADF&amp;G</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>statistical areas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>groundfish</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>commercial fisheries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADF&amp;G</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>statistical areas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>groundfish</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>commercial fisheries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADF&amp;G</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>statistical areas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>groundfish</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska Department of Fish and Game</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>commercial fisheries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADF&amp;G</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>statistical areas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>groundfish</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>THE STATE OF ALASKA, DEPARTMENT OF FISH AND GAME, MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS) WITH RESPECT TO THE ACCURACY, CHARACTER, FUNCTION, OR CAPABILITIES OF THE DATA, SERVICES, OR PRODUCTS OR THEIR APPROPRIATENESS FOR ANY PARTICULAR PURPOSE.The Department of Fish and Game is not liable for any direct, incidental, indirect, special, compensatory, consequential or other damages suffered by the user or any other person or entity from the use of or failure of the data, services, or products even if the Department of Fish and Game has been advised of the possibility of such potential loss or damage. The entire risk as to the results of the use of the data, services, or products is assumed by the user. Data may be subject to periodic change without prior notification. To ensure receipt of the most current information, please refer requests to the ADF&amp;amp;G Open Data website. Users may not reproduce or distribute these data without explicit consent of the Alaska Department of Fish and Game.These data are provided for general visual reference and to aid users in generating various natural resource analyses and products. There are no constraints to accessing these data, other than the limitations or constraints associated with a specific dataset or set forth herein. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Any hardcopy or electronic products utilizing these data shall clearly indicate their source. If the user has modified the data in any way, the user must describe the modifications they have performed. The user agrees not to misrepresent these data, nor to imply that the Alaska Department of Fish and Game approved any changes they made.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+            </topicCategory>
+            <topicCategory>
+                <MD_TopicCategoryCode>oceans</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Esri ArcGIS 10.5.1.7333</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-180</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>180</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>47.499999</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>68.499998</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>These data include statistical areas from January 1, 1985</gco:CharacterString>
+                    </description>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://services.arcgis.com/VdkVOAHovLuozJG4/arcgis/rest/services/Groundfish_Statistical_Areas_2001/FeatureServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <measureDescription>
+                        <gco:CharacterString>The Record Accuracy measure is intended to ensure that all attribute records are accurate.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_CompletenessOmission>
+                    <measureDescription>
+                        <gco:CharacterString>The Record Completeness measure is intended to ensure that all atrribute records are complete. This measure does not include data correctness, only record completion.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>The Polygon Accuracy measure is intended to ensure that statistical area polygons are accurate.</gco:CharacterString>
+                    </measureDescription>
+                    <evaluationMethodDescription>
+                        <gco:CharacterString>Regulatory coordinates (e.g., Registration Areas, Districts, Subdistricts) were recorded from the 2015 - 2016 Alaska Fish and Game Laws and Regulations, and plotted over the groundfish statistical area feature class (PVG_Statewide_2001). Statitical area boundaries that follow regualtory boundaries were aligned to regulatory coordinates. All polygons were examined for accuracy by regional staff (Regional Supervisors, Fishery Coordinators, Biologists, Regional GIS Representatives). Specific coordinates and regualtory authority can be found on the ADF&amp;G Commercial Fisheries Available Statistical Area Coordinates confluence page (https://www.admin.adfg.state.ak.us/confluence/pages/viewpage.action?pageId=63897806).</gco:CharacterString>
+                    </evaluationMethodDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>The original statistical area lines were converted from a shape file to an Arc/Info coverage. Then each line in this coverage was coded based on its type (e.g. coastline, 3-nautical-mile-line, statistical area grid line, land-based point-to-point statistical area line, and fixed regulatory line). (T. Haverland)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2000-02-09T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Lines were converted from NAD27 to NAD83. Some of the lines in this coverage were based on hard lines of latitude or longitude (statistical area grid lines and regulatory lines), therefore the coverage could not be converted to NAD83 as a whole. The statistical area grid lines and regulatory lines had to be separated from the other line types and defined as referenced to the NAD83 datum with no conversion. The remaining lines were converted to NAD83 using Arc/Info's PROJECT command, and all line types were appended into one coverage (gnd14ap). Then this coverage was edited to fix dangles, overshoots, missing or incorrect arcs, and other line topological errors. (T. Haverland)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2000-09-15T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Polygon centroids were added to the line coverage gnd29ed from pvg_stat. Polygon topology was built and the coverage was edited. (T. Haverland)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2000-09-26T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Projected coverage to geographic and created shapefile. Merged shapefile with pvsstat1 and pvsdist1 so that shapefile contained all valid groundfish and shellfish statistical areas plus district-wide statistical areas for Southeast Alaska (these statistical areas (e.g. 010100) were used historically to record groundfish and shellfish catch when only the district was known. Added attributes to shapefile and populated using values from pvg_stat and from a spreadsheet created by G. Smith. Edited attributes. Created final shapefiles pvg_stat_2001 and pvi_stat_2001 so that each shapefile contains all current valid statistical areas for the groundfish and shellfish fisheries respectively. (T. Haverland)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2000-11-22T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Polygons were split to create new statistical areas. In some cases, the new lines were digitized by the area offices and sent to ADF&amp;G CF HQ as a MapInfo table or ArcView shape files. In others, the changes were based on coordinates in ADF&amp;G and Federal regulations. The old statistical area numbers were retired and new numbers assigned. (T. Haverland)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2000-11-22T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Coastal statistical area polygons were clipped to the 1: 63,360 resolution shoreline published by the Alaska Department of Natural Resources (1998-02-11) (L. Hulbert and S. Larsen)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2016-10-11T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Simplified the geometry of polygons. Many polygons contained multiple verteces that did not alter the overall line shape. These vertexes were individually examined, and deleted on a case by case basis. (S. Larsen)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2016-10-13T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Attribute table structure revised, and records completed. Records for regulatory boundaries (e.g., Registration Area, District) were filled using the 2015-2016 Alaska Fish and Game Laws and Regulations (S. Larsen)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2016-10-28T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Some state waters statistical area polygons were edited to remove non-necessary waterbodies. Specific changes and authority are as follows: 395902, 385902 (approved by K. Bush 10/24/2016) 456002, 456003, 446002, 446003 (approved by C. Russ 10/25/2016) 666802, 646732, 616432, 676532, 626403, 616432, 616402, 666432 (no response as of 11/1/2016. Edits made)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2016-11-01T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>The source data for the coastline was "Alaska Coastline 1:63,360", published by the Alaska Department of Natural Resources, Land Records Section, on 02/11/1998.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>PVG_STAT</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>2001-01-01</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+</MD_Metadata>
