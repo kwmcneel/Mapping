@@ -1,0 +1,4 @@
+c04b9bca5ce1a95ae89452184b6021f4 data/urn_uuid_6f07cb25-a4a1-48e8-95cb-74f532f3ce2d-METADATA.pdf
+c7a1556d78541feeccec361a276b4ccc data/shapefile_demo_data.zip
+d9903a984e9da9a7b616fe9ee2bd687d data/resource_map_urn_uuid_fa761459_7b69_4ff1_b389_25abf775094e.rdf.xml
+4531daa715b63394f399c0ab7dd7f2ed data/Sample_shapefile_data_for_NCEAS.xml
